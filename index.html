@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ツインズファミリー | 訪問看護・リハビリステーション＆ケアプランセンター</title>
+  <meta name="description" content="大阪府茨木市・北摂地域を中心に、24時間対応の訪問看護、専門職による訪問リハビリ、居宅介護支援（ケアプラン作成）をご提供。家族のような温もりと専門的なチームケアで在宅療養を支えます。">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Contact / Status Bar -->
+  <header class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span class="badge-tag">24時間緊急対応</span>
+        <span>大阪府茨木市・高槻市・摂津市・吹田市対応</span>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-phone-group">
+          <div class="phone-item">
+            <span class="label">訪問看護</span>
+            <span class="number">072-657-0105</span>
+          </div>
+          <div class="phone-item">
+            <span class="label">ケアプラン</span>
+            <span class="number">072-657-0388</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navigation -->
+  <nav class="main-header">
+    <div class="container">
+      <a href="#home" class="logo-container">
+        <div class="logo-symbol">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 21a9 9 0 0 0 9-9c0-4.97-4.03-9-9-9S3 7.03 3 12a9 9 0 0 0 9 9z"/>
+            <path d="M7 12c1.5 2 3.5 2 5 0 1.5 2 3.5 2 5 0"/>
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-sub">訪問看護・リハビリ・居宅介護支援</span>
+          <div class="logo-main">Twins<span>family</span></div>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">想い・理念</a></li>
+        <li><a href="#nursing" class="nav-link">訪問看護・リハビリ</a></li>
+        <li><a href="#careplan" class="nav-link">ケアプラン</a></li>
+        <li><a href="#flow" class="nav-link">ご利用の流れ</a></li>
+        <li><a href="#area" class="nav-link">対応エリア</a></li>
+        <li><a href="#recruit" class="nav-link">採用情報</a></li>
+        <li><a href="#company" class="nav-link">事業所案内</a></li>
+      </ul>
+
+      <a href="#contact" class="header-cta-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect width="20" height="16" x="2" y="4" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+        </svg>
+        無料相談・お問い合わせ
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link">ホーム <span>&rsaquo;</span></a>
+      <a href="#about" class="mobile-nav-link">想い・理念 <span>&rsaquo;</span></a>
+      <a href="#nursing" class="mobile-nav-link">訪問看護・リハビリ <span>&rsaquo;</span></a>
+      <a href="#careplan" class="mobile-nav-link">ケアプランセンター <span>&rsaquo;</span></a>
+      <a href="#flow" class="mobile-nav-link">ご利用の流れ <span>&rsaquo;</span></a>
+      <a href="#area" class="mobile-nav-link">対応エリア <span>&rsaquo;</span></a>
+      <a href="#recruit" class="mobile-nav-link">採用情報 <span>&rsaquo;</span></a>
+      <a href="#company" class="mobile-nav-link">事業所概要・アクセス <span>&rsaquo;</span></a>
+      <a href="#faq" class="mobile-nav-link">よくある質問 <span>&rsaquo;</span></a>
+    </div>
+
+    <div class="mobile-nav-contact">
+      <div class="contact-tel-card">
+        <div class="contact-tel-title">訪問看護ステーション</div>
+        <a href="tel:0726570105" class="contact-tel-num">072-657-0105</a>
+        <div class="contact-tel-hours">営業時間: 8:30〜17:30 (緊急時24時間)</div>
+      </div>
+      <a href="#contact" class="btn-primary" style="width: 100%; justify-content: center;">お問い合わせフォーム</a>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text-col">
+          <div class="hero-badges">
+            <span class="hero-pill">🌱 看護師・PT・OT・ST 多職種連携</span>
+            <span class="hero-pill">🕒 24時間365日 緊急対応体制</span>
+          </div>
+
+          <h1 class="hero-title">
+            寄り添う心、<br>
+            <span class="highlight">家族のような温もり</span>を届ける。
+          </h1>
+
+          <p class="hero-lead">
+            ツインズファミリーは、ご利用者様と対（ツイン）になり、心を通わせるチームケアを大切にしています。住み慣れたご自宅で、その人らしい毎日を安心して送っていただけるよう、訪問看護・専門リハビリ・ケアプラン作成で力強く支えます。
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              ご相談・お問い合わせ
+            </a>
+            <a href="#nursing" class="btn-secondary">
+              サービス内容を詳しく見る &darr;
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number">24h</span>
+              <span class="stat-desc">緊急時連絡・往診連携</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4市</span>
+              <span class="stat-desc">茨木・高槻・摂津・吹田</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">多職種</span>
+              <span class="stat-desc">看護師・PT・OT・ST・ケアマネ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-main-card">
+            <div class="hero-illustration">
+              <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#F26522" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                <path d="M12 5v14"/>
+                <path d="M5 12h14"/>
+              </svg>
+              <h3 style="font-size: 1.25rem; font-weight: 800; margin-top: 15px; color: #1A202C;">地域に寄り添う在宅ケア</h3>
+              <p style="font-size: 0.88rem; color: #718096; margin-top: 6px;">ツインズリハビリ訪問看護ステーション<br>ツインズケアプランセンター</p>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-top">
+              <div class="badge-icon orange">❤️</div>
+              <div>
+                <div class="badge-text-title">アットホームなチームケア</div>
+                <div class="badge-text-sub">家族のような温かいサポート</div>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom">
+              <div class="badge-icon green">🌿</div>
+              <div>
+                <div class="badge-text-title">言語聴覚士・理学療法士</div>
+                <div class="badge-text-sub">専門的リハビリ＆嚥下訓練</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News / Announcement Bar -->
+  <section class="news-ticker-section">
+    <div class="container">
+      <div class="news-ticker-inner">
+        <span class="news-tag">お知らせ</span>
+        <div class="news-content">
+          <span class="news-date">2026.11.15</span>
+          <a href="#contact" class="news-title">在宅リハビリおよび訪問看護のご相談を随時受け付けております（見学・相談無料）</a>
+        </div>
+        <a href="#contact" style="font-size: 0.85rem; color: var(--primary); font-weight: 700;">一覧を見る &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Concept Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">CONCEPT & PHILOSOPHY</span>
+        <h2 class="section-title">ツインズファミリーの想い</h2>
+        <p class="section-lead">
+          社名「ツインズファミリー」には、創業者の双子の絆と、すべての関わる方々を家族のように温かく支えたいという決意が込められています。
+        </p>
+      </div>
+
+      <div class="about-concept-card">
+        <div class="concept-grid">
+          <div class="concept-title-box">
+            <div class="concept-tag">OUR MISSION</div>
+            <h3 class="concept-heading">「一人ひとりの人生を豊かにする会社を目指す」</h3>
+            <p class="concept-quote">
+              「ご利用者様と対（ツイン）になり、同じ目線で寄り添う。<br>
+              そして、ご家族やスタッフも含めた温かい“ファミリー”でありたい。」
+            </p>
+          </div>
+
+          <div class="concept-body">
+            <p>
+              私たちは、言語聴覚士の双子の兄、理学療法士の妻、看護師、ケアマネジャーら、家族的な絆と高い専門性を持った仲間たちで立ち上げたステーションです。
+            </p>
+            <p>
+              病気や障がいを抱えても、「住み慣れた自宅で、自分らしく笑顔で暮らしたい」という願いを全力でお手伝いします。スタッフ同士が助け合い、笑顔で働ける環境こそが、最高のケアをご利用者様に届ける源泉だと信じています。
+            </p>
+            <p style="font-weight: 700; color: var(--text-main); margin-top: 20px;">
+              代表取締役 辻中 勝
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Strengths -->
+      <div class="strengths-grid">
+        <div class="strength-card">
+          <div class="strength-icon-wrap">🤝</div>
+          <span class="strength-badge">FEATURE 01</span>
+          <h3 class="strength-title">多職種が連携する強力なチームケア</h3>
+          <p class="strength-desc">
+            看護師・理学療法士（PT）・作業療法士（OT）・言語聴覚士（ST）・ケアマネジャーが同一拠点に集結。日々の状態変化や目標をリアルタイムに共有し、スピーディで切れ目のない支援を実現します。
+          </p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon-wrap">🩺</div>
+          <span class="strength-badge">FEATURE 02</span>
+          <h3 class="strength-title">専門資格と質の高いリハビリ体制</h3>
+          <p class="strength-desc">
+            言語聴覚士（ST）による摂食嚥下訓練や発話リハビリ、終末期ケア専門士や呼吸療法認定士などの専門資格保有者が多数在籍。難病や緩和ケア、小児療育まで幅広く対応可能です。
+          </p>
+        </div>
+
+        <div class="strength-card">
+          <div class="strength-icon-wrap">🚑</div>
+          <span class="strength-badge">FEATURE 03</span>
+          <h3 class="strength-title">地域密着＆24時間365日の安心体制</h3>
+          <p class="strength-desc">
+            阪急「南茨木駅」から徒歩5分の好立地。茨木市をはじめ高槻・摂津・吹田など北摂エリアへ迅速に駆けつけます。夜間・休日の緊急時も24時間連絡・対応が可能です。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 1: Visiting Nursing & Rehab -->
+  <section class="section section-bg-alt" id="nursing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">SERVICES 01</span>
+        <h2 class="section-title">ツインズリハビリ訪問看護ステーション</h2>
+        <p class="section-lead">
+          看護師による医療的ケア・健康管理と、リハビリ専門職（PT・OT・ST）による機能訓練をワンストップでご提供します。
+        </p>
+      </div>
+
+      <div class="service-big-card">
+        <div class="service-card-header">
+          <div class="service-title-group">
+            <span class="service-type-badge">訪問看護・リハビリ</span>
+            <h3 class="service-main-heading">在宅での医療・看護と機能訓練</h3>
+          </div>
+          <div class="service-phone-direct">
+            <span>直通電話:</span>
+            <a href="tel:0726570105">072-657-0105</a>
+          </div>
+        </div>
+
+        <div class="service-card-body">
+          <div class="service-feature-grid">
+            <!-- Nursing Service Box -->
+            <div class="service-feature-box">
+              <h4 class="feature-box-title">
+                <span>💉</span> 訪問看護サービス（看護師）
+              </h4>
+              <ul class="feature-list">
+                <li><strong>健康状態の観察・管理：</strong> 血圧・体温・脈拍等のバイタルチェック、病状の早期発見</li>
+                <li><strong>医療処置・医療機器管理：</strong> 点滴、胃ろう・経管栄養、カテーテル管理、床ずれ予防処置</li>
+                <li><strong>服薬指導・管理：</strong> 飲み忘れや過剰服用の防止、薬剤師や医師との連携</li>
+                <li><strong>緩和ケア・看取り支援：</strong> 痛みの緩和、最期までご自宅で穏やかに過ごすための支援</li>
+                <li><strong>認知症ケア・ご家族サポート：</strong> 不安の解消や介護方法のアドバイス</li>
+              </ul>
+            </div>
+
+            <!-- Rehabilitation Service Box -->
+            <div class="service-feature-box green-border">
+              <h4 class="feature-box-title">
+                <span>🏃‍♂️</span> 訪問リハビリテーション（PT・OT・ST）
+              </h4>
+              <ul class="feature-list green">
+                <li><strong>理学療法（PT）：</strong> 起き上がり・立ち上がり・歩行などの基本動作訓練、関節可動域訓練</li>
+                <li><strong>作業療法（OT）：</strong> 食事・排泄・入浴など日常生活動作（ADL）の改善、趣味活動支援</li>
+                <li><strong>言語聴覚療法（ST）：</strong> 摂食・嚥下（飲み込み）訓練、発声・コミュニケーション訓練</li>
+                <li><strong>住環境・用具アドバイス：</strong> 手すり設置や段差解消、福祉用具選定の専門提案</li>
+                <li><strong>ご家族への介助指導：</strong> 腰痛予防や無理のない安全な介助方法のレクチャー</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-tags-group">
+            <span class="service-pill-tag"># 医療保険・介護保険対応</span>
+            <span class="service-pill-tag"># 24時間緊急対応体制</span>
+            <span class="service-pill-tag"># ターミナルケア対応</span>
+            <span class="service-pill-tag"># 難病指定対応</span>
+            <span class="service-pill-tag"># 小児療育・医療的ケア児</span>
+            <span class="service-pill-tag"># 呼吸療法認定士</span>
+            <span class="service-pill-tag"># 終末期ケア専門士</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 2: Care Plan Center -->
+  <section class="section" id="careplan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">SERVICES 02</span>
+        <h2 class="section-title">ツインズケアプランセンター</h2>
+        <p class="section-lead">
+          介護保険の申請からケアプランの作成、各種事業者との調整まで、主任ケアマネジャーを中心に丁寧にお応えします。
+        </p>
+      </div>
+
+      <div class="service-big-card">
+        <div class="service-card-header green-theme">
+          <div class="service-title-group">
+            <span class="service-type-badge green">居宅介護支援</span>
+            <h3 class="service-main-heading">介護のご相談・ケアプラン作成（費用無料）</h3>
+          </div>
+          <div class="service-phone-direct">
+            <span>直通電話:</span>
+            <a href="tel:0726570388" style="color: var(--secondary-dark);">072-657-0388</a>
+          </div>
+        </div>
+
+        <div class="service-card-body">
+          <div class="service-feature-grid">
+            <div class="service-feature-box green-border">
+              <h4 class="feature-box-title">
+                <span>📋</span> 主な業務内容
+              </h4>
+              <ul class="feature-list green">
+                <li><strong>介護保険申請の代行：</strong> 初めて介護サービスを利用される方の申請手続きを代行</li>
+                <li><strong>ケアプラン（居宅サービス計画）の作成：</strong> ご本人・ご家族の希望を反映した最適な計画</li>
+                <li><strong>各サービス機関との調整：</strong> デイサービス、ヘルパー、ショートステイ等の連絡調整</li>
+                <li><strong>定期的なモニタリング：</strong> 月1回以上ご自宅を訪問し、状態や満足度を確認・見直し</li>
+              </ul>
+            </div>
+
+            <div class="service-feature-box green-border">
+              <h4 class="feature-box-title">
+                <span>✨</span> ツインズケアプランセンターの特長
+              </h4>
+              <ul class="feature-list green">
+                <li><strong>訪問看護ステーション併設：</strong> 医療処置やリハビリが必要な場合も、すぐに看護師・リハ職と相談可能</li>
+                <li><strong>主任ケアマネジャー在籍：</strong> 困難事例や重度化した場合でも、経験豊富なマネジャーが対応</li>
+                <li><strong>相談料・プラン作成料は全額保険給付：</strong> ご利用者様の自己負担は一切ございません</li>
+                <li><strong>親身な傾聴：</strong> 介護の不安や愚痴もお気軽に話せる信頼関係を第一にします</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Target Audience / Who It is For -->
+  <section class="section section-bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">FOR WHOM</span>
+        <h2 class="section-title">このような方にご利用いただけます</h2>
+        <p class="section-lead">年齢や疾患を問わず、在宅療養でお困りの方はどなたでもご相談ください。</p>
+      </div>
+
+      <div class="target-grid">
+        <div class="target-card">
+          <div class="target-icon">🏥</div>
+          <h3 class="target-title">退院後もリハビリや医療ケアを継続したい方</h3>
+          <p class="target-desc">入院中のリハビリ成果をご自宅の生活環境でも定着させたい方。</p>
+        </div>
+
+        <div class="target-card">
+          <div class="target-icon">🥣</div>
+          <h3 class="target-title">食事のむせ込みや会話が難しくなってきた方</h3>
+          <p class="target-desc">言語聴覚士（ST）による専門的な摂食・嚥下訓練や口腔ケアをご希望の方。</p>
+        </div>
+
+        <div class="target-card">
+          <div class="target-icon">🏡</div>
+          <h3 class="target-title">最期まで住み慣れた自宅で過ごしたい方</h3>
+          <p class="target-desc">医師やご家族と密に連携し、苦痛の緩和と温かなお看取りをサポートします。</p>
+        </div>
+
+        <div class="target-card">
+          <div class="target-icon">👶</div>
+          <h3 class="target-title">小児療育や医療的ケアが必要なお子さま</h3>
+          <p class="target-desc">児童発達支援や放課後等デイとも連携し、成長に合わせた支援を行います。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Flow (ご利用の流れ) -->
+  <section class="section" id="flow">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">FLOW</span>
+        <h2 class="section-title">ご利用開始までの流れ</h2>
+        <p class="section-lead">お問い合わせから最短数日でサービスを開始できます。まずはお気軽にご相談ください。</p>
+      </div>
+
+      <div class="flow-timeline">
+        <div class="flow-step-item">
+          <div class="step-num-col">
+            <span class="step-label">STEP</span>
+            <span class="step-digit">01</span>
+          </div>
+          <div class="step-content-col">
+            <h3 class="step-title">お問い合わせ・ご相談（無料）</h3>
+            <p class="step-desc">
+              お電話またはWebお問い合わせフォームよりご連絡ください。ご本人様、ご家族様、担当ケアマネジャー様、病院の相談員様からのご相談を歓迎しております。
+            </p>
+          </div>
+        </div>
+
+        <div class="flow-step-item">
+          <div class="step-num-col">
+            <span class="step-label">STEP</span>
+            <span class="step-digit">02</span>
+          </div>
+          <div class="step-content-col">
+            <h3 class="step-title">ご面談・ご希望のヒアリング</h3>
+            <p class="step-desc">
+              ステーションの看護師やリハビリ職、ケアマネジャーがご自宅や入院先病院へ伺い、お身体の状態や在宅生活でのご希望を詳しくお聞きします。
+            </p>
+          </div>
+        </div>
+
+        <div class="flow-step-item">
+          <div class="step-num-col">
+            <span class="step-label">STEP</span>
+            <span class="step-digit">03</span>
+          </div>
+          <div class="step-content-col">
+            <h3 class="step-title">主治医の指示書交付・ケアプラン作成</h3>
+            <p class="step-desc">
+              訪問看護にはかかりつけ医による「訪問看護指示書」が必要です。当ステーションからも主治医の先生へ連携・申請手続きのお手伝いをいたします。
+            </p>
+          </div>
+        </div>
+
+        <div class="flow-step-item">
+          <div class="step-num-col">
+            <span class="step-label">STEP</span>
+            <span class="step-digit">04</span>
+          </div>
+          <div class="step-content-col">
+            <h3 class="step-title">ご契約・サービス利用開始</h3>
+            <p class="step-desc">
+              重要事項の説明およびご契約を交わし、訪問スケジュールを決定します。安心・安全な在宅療養生活のスタートです。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Area Section (対応エリア) -->
+  <section class="section section-bg-alt" id="area">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">AREA</span>
+        <h2 class="section-title">サービス対応エリア</h2>
+        <p class="section-lead">大阪府北摂地域を中心に迅速に駆けつけます。近隣エリアも柔軟に対応いたします。</p>
+      </div>
+
+      <div class="area-box">
+        <div class="area-grid">
+          <div>
+            <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 20px;">主な重点対応地域</h3>
+            <div class="area-list">
+              <div class="area-badge">
+                <div class="area-badge-icon">📍</div>
+                <div class="area-badge-name">茨木市全域</div>
+              </div>
+              <div class="area-badge">
+                <div class="area-badge-icon">📍</div>
+                <div class="area-badge-name">高槻市</div>
+              </div>
+              <div class="area-badge">
+                <div class="area-badge-icon">📍</div>
+                <div class="area-badge-name">摂津市</div>
+              </div>
+              <div class="area-badge">
+                <div class="area-badge-icon">📍</div>
+                <div class="area-badge-name">吹田市</div>
+              </div>
+            </div>
+
+            <div class="area-note">
+              <strong>※ エリア境界付近にお住まいの方へ：</strong><br>
+              上記エリア以外でも、隣接する箕面市・豊中市・寝屋川市など柔軟に対応可能な場合がございます。まずはお気軽にご相談ください。
+            </div>
+          </div>
+
+          <div class="area-map-mock">
+            <div style="font-size: 2.8rem; margin-bottom: 10px;">🗺️</div>
+            <h4 style="font-weight: 800; font-size: 1.15rem; color: #1A202C;">阪急・モノレール「南茨木駅」からすぐ</h4>
+            <p style="font-size: 0.9rem; color: #4A5568; margin-top: 6px;">
+              交通アクセス抜群の拠点を構えているため、<br>北摂各地へスピーディに訪問看護車・自転車で伺います。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Profile & Access -->
+  <section class="section" id="company">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">COMPANY OVERVIEW</span>
+        <h2 class="section-title">事業所概要・アクセス</h2>
+        <p class="section-lead">株式会社Twins familyが運営するステーション情報です。</p>
+      </div>
+
+      <table class="company-info-table">
+        <tbody>
+          <tr>
+            <th>法人名称</th>
+            <td>株式会社Twins family（ツインズファミリー）</td>
+          </tr>
+          <tr>
+            <th>運営事業所</th>
+            <td>
+              <strong>ツインズリハビリ訪問看護ステーション</strong><br>
+              <strong>ツインズケアプランセンター</strong>（居宅介護支援）<br>
+              ツインズリハビリ児童発達支援・放課後等デイサービス
+            </td>
+          </tr>
+          <tr>
+            <th>代表者</th>
+            <td>代表取締役 辻中 勝</td>
+          </tr>
+          <tr>
+            <th>所在地</th>
+            <td>〒567-0868 大阪府茨木市沢良宜西1-7-6 ロイヤルミサワ1F</td>
+          </tr>
+          <tr>
+            <th>交通アクセス</th>
+            <td>阪急京都線「南茨木駅」徒歩5分 / 大阪モノレール「南茨木駅」徒歩5分</td>
+          </tr>
+          <tr>
+            <th>連絡先</th>
+            <td>
+              【訪問看護】TEL: 072-657-0105 / FAX: 072-657-0106<br>
+              【ケアプラン】TEL: 072-657-0388 / FAX: 072-657-0389
+            </td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>平日・土曜・祝日 8:30〜17:30（緊急時は24時間365日対応）</td>
+          </tr>
+          <tr>
+            <th>定休日</th>
+            <td>日曜日、お盆（8/13〜15）、年末年始（12/30〜1/3）</td>
+          </tr>
+          <tr>
+            <th>提携・協力医療機関</th>
+            <td>医療法人岸本クリニック、地域の各クリニック・総合病院</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Recruit Section -->
+  <section class="section section-bg-alt" id="recruit">
+    <div class="container">
+      <div class="recruit-banner">
+        <div class="recruit-content">
+          <span class="recruit-tag">RECRUITMENT</span>
+          <h2 class="recruit-title">
+            スタッフとその家族も大切にする、<br>温かい職場で一緒に働きませんか？
+          </h2>
+          <p class="recruit-lead">
+            ツインズファミリーでは、チームで支え合うアットホームな風土を築いています。子育て中のスタッフも多く、急なお休みも全員でフォロー。残業ほぼゼロ、有給消化率も高く、プライベートと両立して専門性を発揮できます。
+          </p>
+
+          <div class="recruit-jobs-badges">
+            <span class="job-pill">看護師（正社員・パート）</span>
+            <span class="job-pill">理学療法士 PT</span>
+            <span class="job-pill">作業療法士 OT</span>
+            <span class="job-pill">言語聴覚士 ST</span>
+            <span class="job-pill">ケアマネジャー</span>
+          </div>
+
+          <div class="recruit-actions">
+            <a href="#contact" class="btn-recruit-white">
+              採用エントリー・見学希望はこちら &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">FAQ</span>
+        <h2 class="section-title">よくあるご質問</h2>
+        <p class="section-lead">ご利用者様やご家族様から多くいただくご質問にお答えします。</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <div class="faq-q-text">
+              <span class="q-badge">Q</span>
+              <span>介護保険と医療保険のどちらが適用されますか？</span>
+            </div>
+            <svg class="faq-icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-a-inner">
+              <span class="a-badge">A</span>
+              <p class="faq-a-text">
+                原則として要介護・要支援認定を受けられている方は介護保険が優先されます。ただし、厚生労働省が定める難病（パーキンソン病関連疾患やALSなど）や末期がん、急性増悪時などの場合は医療保険での対応となります。どちらが適用されるかは状況に応じて当スタッフが丁寧にご説明いたします。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <div class="faq-q-text">
+              <span class="q-badge">Q</span>
+              <span>リハビリテーションだけを依頼することはできますか？</span>
+            </div>
+            <svg class="faq-icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-a-inner">
+              <span class="a-badge">A</span>
+              <p class="faq-a-text">
+                はい、可能です。当ステーションには理学療法士（PT）・作業療法士（OT）・言語聴覚士（ST）が常勤で在籍しておりますので、リハビリ中心の訪問も多くの実績がございます（定期的な看護師による健康評価訪問が組み合わさる体制をとっております）。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <div class="faq-q-text">
+              <span class="q-badge">Q</span>
+              <span>夜間や休日に容態が急変した場合はどうなりますか？</span>
+            </div>
+            <svg class="faq-icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-a-inner">
+              <span class="a-badge">A</span>
+              <p class="faq-a-text">
+                「24時間対応体制」の契約を結んでいるご利用者様には、専用の緊急携帯番号をお渡ししております。24時間365日看護師が電話対応し、必要に応じて迅速に緊急訪問や主治医への連絡を行います。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <div class="faq-q-text">
+              <span class="q-badge">Q</span>
+              <span>ケアプランの相談や作成には費用がかかりますか？</span>
+            </div>
+            <svg class="faq-icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-a-inner">
+              <span class="a-badge">A</span>
+              <p class="faq-a-text">
+                ケアプランセンター（居宅介護支援）での相談やケアプラン作成費用は、全額介護保険から給付されますので、ご利用者様の自己負担金は「無料（0円）」です。安心してご相談ください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section & Form -->
+  <section class="section section-bg-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sub-title">CONTACT US</span>
+        <h2 class="section-title">お問い合わせ・無料相談</h2>
+        <p class="section-lead">在宅療養やリハビリ、介護に関するお困りごとなど、どうぞお気軽にお問い合わせください。</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Direct Phone & Office Info -->
+        <div class="contact-info-panel">
+          <div>
+            <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 24px; color: #1A202C;">お電話でのお問い合わせ</h3>
+
+            <div class="contact-tel-card">
+              <div class="contact-tel-title">ツインズリハビリ訪問看護ステーション</div>
+              <a href="tel:0726570105" class="contact-tel-num">072-657-0105</a>
+              <div class="contact-tel-hours">営業時間: 8:30〜17:30 (緊急時24時間対応)</div>
+            </div>
+
+            <div class="contact-tel-card">
+              <div class="contact-tel-title">ツインズケアプランセンター（居宅介護支援）</div>
+              <a href="tel:0726570388" class="contact-tel-num" style="color: var(--secondary-dark);">072-657-0388</a>
+              <div class="contact-tel-hours">営業時間: 8:30〜17:30 (日曜・お盆・年末年始休)</div>
+            </div>
+          </div>
+
+          <div style="font-size: 0.88rem; color: #718096; line-height: 1.7; padding-top: 20px; border-top: 1px dashed var(--border-warm);">
+            <strong>所在地：</strong><br>
+            〒567-0868 大阪府茨木市沢良宜西1-7-6 ロイヤルミサワ1F<br>
+            （阪急京都線・大阪モノレール「南茨木駅」徒歩5分）
+          </div>
+        </div>
+
+        <!-- Web Form -->
+        <div class="contact-form-panel">
+          <form id="inquiryForm">
+            <div class="form-group">
+              <label class="form-label" for="inquiryType">お問い合わせ項目 <span class="req-badge">必須</span></label>
+              <select class="form-select" id="inquiryType" required>
+                <option value="">選択してください</option>
+                <option value="nursing">訪問看護について相談したい</option>
+                <option value="rehab">訪問リハビリについて相談したい</option>
+                <option value="careplan">ケアプラン作成・介護の相談をしたい</option>
+                <option value="recruit">採用・職場見学について応募したい</option>
+                <option value="other">その他のお問い合わせ</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="userName">お名前 <span class="req-badge">必須</span></label>
+              <input type="text" class="form-input" id="userName" placeholder="例：山田 太郎" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="userTel">お電話番号 <span class="req-badge">必須</span></label>
+              <input type="tel" class="form-input" id="userTel" placeholder="例：090-1234-5678" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="userEmail">メールアドレス <span class="opt-badge">任意</span></label>
+              <input type="email" class="form-input" id="userEmail" placeholder="例：sample@example.com">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="userMessage">ご相談・お問い合わせ内容 <span class="req-badge">必須</span></label>
+              <textarea class="form-textarea" id="userMessage" placeholder="現在のお困りごとや、ご希望の訪問内容などをご自由にご記入ください。" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">送信する（無料相談）</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo-container" style="margin-bottom: 12px;">
+            <div class="logo-symbol" style="background: var(--primary);">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 21a9 9 0 0 0 9-9c0-4.97-4.03-9-9-9S3 7.03 3 12a9 9 0 0 0 9 9z"/>
+              </svg>
+            </div>
+            <div class="logo-text-group">
+              <span style="color: #A0AEC0; font-size: 0.7rem;">株式会社Twins family</span>
+              <div style="color: white; font-size: 1.3rem; font-weight: 800;">Twins family</div>
+            </div>
+          </div>
+          <p class="footer-col-desc">
+            ツインズリハビリ訪問看護ステーション<br>
+            ツインズケアプランセンター<br>
+            〒567-0868 大阪府茨木市沢良宜西1-7-6 ロイヤルミサワ1F
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">サービス案内</h4>
+          <ul class="footer-links">
+            <li><a href="#nursing" class="footer-link">訪問看護サービス</a></li>
+            <li><a href="#nursing" class="footer-link">訪問リハビリテーション</a></li>
+            <li><a href="#careplan" class="footer-link">ケアプラン作成（居宅介護支援）</a></li>
+            <li><a href="#area" class="footer-link">対応エリア一覧</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">事業所について</h4>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">理念・想い</a></li>
+            <li><a href="#company" class="footer-link">事業所概要・アクセス</a></li>
+            <li><a href="#flow" class="footer-link">ご利用の流れ</a></li>
+            <li><a href="#faq" class="footer-link">よくあるご質問</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">採用・お問い合わせ</h4>
+          <ul class="footer-links">
+            <li><a href="#recruit" class="footer-link">採用情報（求人案内）</a></li>
+            <li><a href="#contact" class="footer-link">無料ご相談窓口</a></li>
+            <li><a href="tel:0726570105" class="footer-link">TEL: 072-657-0105</a></li>
+            <li><a href="tel:0726570388" class="footer-link">TEL: 072-657-0388</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>プライバシーポリシー（個人情報保護方針） | サイトマップ</div>
+        <div class="footer-copyright">&copy; Twins family Co., Ltd. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="ページトップへ戻る">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <!-- Submission Success Modal -->
+  <div class="modal-overlay" id="successModal">
+    <div class="modal-box">
+      <div class="modal-icon">✓</div>
+      <h3 class="modal-title">お問い合わせを受け付けました</h3>
+      <p class="modal-message">
+        お問い合わせいただきありがとうございます。<br>
+        内容を確認の上、担当者より折り返しご連絡差し上げます。緊急のご用件の場合は、お電話にて直接ご連絡ください。
+      </p>
+      <button class="modal-btn-close" id="modalCloseBtn">閉じる</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
